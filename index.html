@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,600;1,100;1,200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Survey</title>
+</head>
+<body>
+  <header>
+    <h1 id="title">Pre consultation Survey</h1>
+    <p id="description">Please fill this survey so that we can best meet your needs.</p>      
+  </header>
+  <form action="" id="survey-form">
+    <label for="name" id="name-label">Name</label>
+    <input type="text" name="name" id="name" required>
+    <label for="email" id="email-label">E-mail</label>
+    <input type="email" name="email" id="email" required>
+    <label for="number" id="number-label">Number</label>
+    <input type="tel" id="number" name="number" maxlength="10" minlength="6">
+    <label for="dropdown">Select an option</label>
+    <select name="dropdown" id="dropdown">
+      <option value="option-1">Option 1</option>
+      <option value="option-2">Option 2</option>
+      <option value="option-3">Option 3</option>
+      <option value="option-4">Option 4</option>
+    </select>
+    <div class="radio-option">
+      <input type="radio" name="issue" id="radio1" value="radio1">
+      <label for="radio1">Radio 1</label>  
+    </div>
+    <div class="radio-option">
+      <input type="radio" name="issue" id="radio2" value="radio2">
+      <label for="radio2">Radio 2</label>  
+    </div>
+    <div class="radio-option">
+      <input type="radio" name="issue" id="radio3" value="radio3">
+      <label for="radio1">Radio 3</label>  
+    </div>
+    <div class="radio-option">
+      <input type="radio" name="issue" id="radio4" value="radio4">
+      <label for="radio1">Radio 4</label>  
+    </div>
+    <label for="dropdown2">Select another option</label>
+    <select name="dropdown" id="dropdown2">
+      <option value="option-1">Option 1</option>
+      <option value="option-2">Option 2</option>
+      <option value="option-3">Option 3</option>
+      <option value="option-4">Option 4</option>
+    </select>
+    <div class="radio-option">
+      <input type="checkbox" name="checkbox1" id="checkbox1">
+      <label for="checkbox1">Checkbox1</label>  
+    </div>
+    <div class="radio-option">
+      <input type="checkbox" name="checkbox2" id="checkbox2">
+      <label for="checkbox2">Checkbox2</label>  
+    </div>
+    <div class="radio-option">
+      <input type="checkbox" name="checkbox3" id="checkbox3">
+      <label for="checkbox3">Checkbox3</label>  
+    </div>
+    <div class="radio-option">
+      <input type="checkbox" name="checkbox4" id="checkbox4">
+      <label for="checkbox4">Checkbox4</label>  
+    </div>
+    <div class="radio-option">
+      <input type="checkbox" name="checkbox5" id="checkbox5">
+      <label for="checkbox5">Checkbox5</label>
+    </div>
+    <label for="comments">Any comments or suggestions?</label>
+    <textarea name="comments" id="" cols="30" rows="10" fixed></textarea>
+    <input type="submit" class="btn">
+  </form>
+</body>
+</html>
